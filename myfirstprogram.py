@@ -1,1 +1,5 @@
-
+name = input("enter your name:")
+‎age = input("enter your age:")
+‎city = input("enter your city:")
+‎hobby = input("enter your hobby:")
+‎print(f"Hello! My name is {name}. I am {age} years old, I live in {city}, and I love {hobby}.")
