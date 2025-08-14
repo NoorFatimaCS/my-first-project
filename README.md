@@ -19,7 +19,13 @@ print(f"Hello! My name is {name}. I am {age} years old, I live in {city}, and I 
 
 Program Output
 
-(Coming soon...)
+enter your name: Noor Fatima 
+enter your age: 19 
+enter your city: Lahore  
+enter your hobby: Coding 
+Hello! My name is Noor Fatima. I am 19 years old, I live in Lahore, and I love Coding.
+
+
 
 How to Run
 
