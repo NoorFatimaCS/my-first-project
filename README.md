@@ -54,4 +54,80 @@ How to run basic scripts
  Keywords (for Google Search)
 
 Python beginner project, first Python program, Python input output example, Python f-string example, how to take input in Python, Python basics for beginners, learn Python step by step, Python simple projects, coding for beginners, Python tutorial example code, start programming with Python, beginner-friendly Python project, my first Python code, how to run Python program, Python practice code.
+My First Python Programs
+
+This repository contains my basic Python learning programs.
+
+
+---
+
+1. Age Calculator
+
+This program calculates the age of a person based on the current year and their birth year.
+
+Code:
+
+current_year = int(input("Enter current year: "))
+birth_year = int(input("Enter your birth year: "))
+
+age = current_year - birth_year
+print("Your age is:", age)
+
+Output Example:
+
+Enter current year: 2025  
+Enter your birth year: 2005  
+Your age is: 20
+
+
+---
+
+2. Voting Eligibility
+
+This program checks if a person is eligible to vote based on their age.
+
+Code:
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+Output Example:
+
+Enter your age: 20  
+Eligible to vote  
+
+Enter your age: 15  
+Not eligible to vote
+
+
+---
+
+3. Favorite Movies List
+
+This program stores the user's favorite movies in a list and displays them.
+
+Code:
+
+movies = []
+
+movie1 = input("Enter your first favorite movie: ")
+movie2 = input("Enter your second favorite movie: ")
+movie3 = input("Enter your third favorite movie: ")
+
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+
+print("Your favorite movies are:", movies)
+
+Output Example:
+
+Enter your first favorite movie: Inception  
+Enter your second favorite movie: Titanic  
+Enter your third favorite movie: Avatar  
+Your favorite movies are: ['Inception', 'Titanic', 'Avatar']
 
