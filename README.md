@@ -58,14 +58,43 @@ My First Python Programs
 
 This repository contains my basic Python learning programs.
 
+📘 My First Python Programs
+
+This repository contains my basic Python learning programs.
+
 
 ---
 
-1. Age Calculator
+1️⃣ My First Program
+
+This program takes user input and prints a short introduction.
+
+🖥 Code:
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+hobby = input("Enter your hobby: ")
+
+print(f"Hello! My name is {name}. I am {age} years old, I live in {city}, and I love {hobby}.")
+
+✅ Example Output:
+
+Enter your name: Noor Fatima
+Enter your age: 19
+Enter your city: Lahore
+Enter your hobby: Coding
+
+Hello! My name is Noor Fatima. I am 19 years old, I live in Lahore, and I love Coding.
+
+
+---
+
+2️⃣ Age Calculator
 
 This program calculates the age of a person based on the current year and their birth year.
 
-Code:
+🖥 Code:
 
 current_year = int(input("Enter current year: "))
 birth_year = int(input("Enter your birth year: "))
@@ -73,20 +102,20 @@ birth_year = int(input("Enter your birth year: "))
 age = current_year - birth_year
 print("Your age is:", age)
 
-Output Example:
+✅ Example Output:
 
-Enter current year: 2025  
-Enter your birth year: 2005  
+Enter current year: 2025
+Enter your birth year: 2005
 Your age is: 20
 
 
 ---
 
-2. Voting Eligibility
+3️⃣ Voting Eligibility
 
 This program checks if a person is eligible to vote based on their age.
 
-Code:
+🖥 Code:
 
 age = int(input("Enter your age: "))
 
@@ -95,22 +124,22 @@ if age >= 18:
 else:
     print("Not eligible to vote")
 
-Output Example:
+✅ Example Output:
 
-Enter your age: 20  
-Eligible to vote  
+Enter your age: 20
+Eligible to vote
 
-Enter your age: 15  
+Enter your age: 15
 Not eligible to vote
 
 
 ---
 
-3. Favorite Movies List
+4️⃣ Favorite Movies List
 
 This program stores the user's favorite movies in a list and displays them.
 
-Code:
+🖥 Code:
 
 movies = []
 
@@ -124,10 +153,17 @@ movies.append(movie3)
 
 print("Your favorite movies are:", movies)
 
-Output Example:
+✅ Example Output:
 
-Enter your first favorite movie: Inception  
-Enter your second favorite movie: Titanic  
-Enter your third favorite movie: Avatar  
+Enter your first favorite movie: Inception
+Enter your second favorite movie: Titanic
+Enter your third favorite movie: Avatar
+
 Your favorite movies are: ['Inception', 'Titanic', 'Avatar']
+
+
+---
+
+✨ These are my first Python programs created as part of my learning journey.
+
 
