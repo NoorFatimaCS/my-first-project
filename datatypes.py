@@ -227,5 +227,32 @@ Input and Output in Python
 If-Else conditions
 
 Arithmetic operators
+6 . Python Data Types 
+
+This project contains a simple Python program to demonstrate **basic data types** and the use of the `type()` function in Python.
+
+## 📌 Code Example
+```python
+x = 10
+y = 2.53
+name = "noor"
+coine = True
+
+print(type(x), type(y), type(name), type(coine))
+
+📌 Output
+
+<class 'int'> <class 'float'> <class 'str'> <class 'bool'>
+
+📖 Explanation
+
+int → Integer numbers (e.g., 10)
+
+float → Decimal numbers (e.g., 2.53)
+
+str → Text (e.g., "noor")
+
+bool → Boolean (True/False values)
+
 
 
