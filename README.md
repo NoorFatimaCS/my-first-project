@@ -1,4 +1,4 @@
-My First Python Program
+IMy First Python Program
 
 This is my very first Python project, created to practice the basics of Python programming such as:
 
@@ -165,5 +165,67 @@ Your favorite movies are: ['Inception', 'Titanic', 'Avatar']
 ---
 
 ✨ These are my first Python programs created as part of my learning journey.
+
+5️⃣ Simple Calculator
+
+
+This program is a **menu-driven calculator** that performs different arithmetic operations.
+
+🖥 Code:
+```python
+print("------ Simple Calculator ------")
+print("1. Addition (+)")
+print("2. Subtraction (-)")
+print("3. Multiplication (*)")
+print("4. Division (/)")
+print("5. Exponent (**)")
+print("6. Modulus (%)")
+
+# Taking user input
+choice = int(input("\nEnter your choice (1-6): "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# Performing operations
+if choice == 1:
+    print("Result =", a + b)
+elif choice == 2:
+    print("Result =", a - b)
+elif choice == 3:
+    print("Result =", a * b)
+elif choice == 4:
+    if b == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        print("Result =", a / b)
+elif choice == 5:
+    print("Result =", a ** b)
+elif choice == 6:
+    print("Result =", a % b)
+else:
+    print("Invalid choice!")
+
+✅ Example Output:
+
+------ Simple Calculator ------
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Exponent (**)
+6. Modulus (%)
+
+Enter your choice (1-6): 1
+Enter first number: 10
+Enter second number: 5
+Result = 15
+
+✨ This project helps beginners practice using:
+
+Input and Output in Python
+
+If-Else conditions
+
+Arithmetic operators
 
 
