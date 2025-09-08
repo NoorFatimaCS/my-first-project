@@ -1,4 +1,4 @@
-IMy First Python Program
+My First Python Program
 
 This is my very first Python project, created to practice the basics of Python programming such as:
 
