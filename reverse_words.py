@@ -1,0 +1,5 @@
+str=input("enter your sentence:")
+word=str.split( )
+word.reverse( )
+result=' '.join(word)
+print(result)
