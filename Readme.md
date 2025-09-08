@@ -254,6 +254,100 @@ float → Decimal numbers (e.g., 2.53)
 str → Text (e.g., "noor")
 
 bool → Boolean values (True / False)
+7️⃣ Reverse Words in a String
+
+This program takes a sentence as input and reverses the order of its words.
+
+🖥 Code:
+
+sentence = input("Enter your sentence: ")
+words = sentence.split()
+words.reverse()
+result = ' '.join(words)
+print(result)
+
+✅ Example Output:
+
+Enter your sentence: I love Python
+Python love I
+
+
+---
+
+8️⃣ Second Largest Number
+
+This program finds the second largest number from a list entered by the user.
+
+🖥 Code:
+
+numbers = []
+for i in range(5):
+    numbers.append(int(input("Enter your number: ")))
+numbers.sort()
+print("Second largest number:", numbers[-2])
+
+✅ Example Output:
+
+Enter your number: 10
+Enter your number: 20
+Enter your number: 4
+Enter your number: 45
+Enter your number: 99
+Second largest number: 45
+
+
+---
+
+9️⃣ Palindrome Check
+
+This program checks whether a given word is a palindrome (same forward and backward).
+
+🖥 Code:
+
+word = input("Enter your word: ")
+reverse = word[::-1]
+if word == reverse:
+    print("Palindrome")
+else:
+    print("Not palindrome")
+
+✅ Example Output:
+
+Enter your word: madam
+Palindrome
+
+Enter your word: hello
+Not palindrome
+
+
+---
+
+🔟 Count Vowels and Consonants
+
+This program counts the number of vowels and consonants in a sentence.
+
+🖥 Code:
+
+sentence = input("Enter your sentence: ")
+vowels = 0
+consonants = 0
+
+for ch in sentence:
+    if ch.isalpha():
+        if ch.lower() in "aeiou":
+            vowels += 1
+        else:
+            consonants += 1
+
+print("Vowels =", vowels)
+print("Consonants =", consonants)
+
+✅ Example Output:
+
+Enter your sentence: I love Python
+Vowels = 4
+Consonants = 7
+
 
 
 
