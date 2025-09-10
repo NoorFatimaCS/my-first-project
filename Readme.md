@@ -348,6 +348,99 @@ Enter your sentence: I love Python
 Vowels = 4
 Consonants = 7
 
+My Python Practice Questions
+
+Q1: Sum, Difference, Multiplication, Division
+
+🖥 Code:
+
+a = int(input("Enter your first number: "))
+b = int(input("Enter your second number: "))
+print("Sum =", a+b)
+print("Difference =", a-b)
+print("Multiplication =", a*b)
+print("Division =", a/b)
+
+✅ Example Output:
+
+Enter your first number: 10  
+Enter your second number: 5  
+Sum = 15  
+Difference = 5  
+Multiplication = 50  
+Division = 2.0
+
+
+---
+
+Q2: String vowel se start hoti hai ya nahi
+
+🖥 Code:
+
+str1 = input("Enter your string: ")
+if str1[0].lower() in "aeiou":
+    print("The string starts with a vowel")
+else:
+    print("Not start vowel")
+
+✅ Example Output:
+
+Enter your string: apple  
+The string starts with a vowel
+
+
+---
+
+Q3: Average of 10 numbers
+
+🖥 Code:
+
+numbers = []
+for i in range(10):
+    numbers.append(int(input("Enter your number: ")))
+aver = sum(numbers) / len(numbers)
+print("Average =", aver)
+
+✅ Example Output:
+
+Enter your number: 10  
+Enter your number: 20  
+...  
+Average = 15.0
+
+
+---
+
+Q4: Tuple second last element
+
+🖥 Code:
+
+tup = (1, 2, 3, 4, 5)
+print("Second last element =", tup[-2])
+
+✅ Example Output:
+
+Second last element = 4
+
+
+---
+
+Q5: Dictionary students marks
+
+🖥 Code:
+
+student = {"ali": 25, "noor": 29}
+name = input("Enter your name: ")
+if name in student:
+    print("Marks =", student[name])
+else:
+    print("Not found")
+
+✅ Example Output:
+
+Enter your name: noor  
+Marks = 29
+
 
 
 
